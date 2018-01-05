@@ -73,7 +73,7 @@ $(function () {
      //����������������ͷ�ı������Լ��ص������ļ�ͷ
      window.onscroll = function () {
     var target = document.body.scrollTop ? $("body") : $("html");
-    console.log(target.scrollTop());
+    // console.log(target.scrollTop());
     if (target.scrollTop() >= 370) {
         $("#header-nav").css({
             background: "#fff",
@@ -159,7 +159,7 @@ $(function () {
     var oSecond = document.getElementById("second");
     var aLi = "";
     for (var i = 0; i < 60; i++) {
-        console.log(i);
+        // console.log(i);
         aLi += "<li style='transform: rotate(" + i * 6 + "deg)'></li>"
     }
     oul.innerHTML = aLi;
